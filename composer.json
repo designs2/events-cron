@@ -1,5 +1,5 @@
 {
-	"name":"contao-community-alliance/events-cron",
+	"name":"designs2/events-cron",
 	"description":"Cron event for Contao Open Source CMS",
 	"keywords":["contao", "event", "cron"],
 	"type": "contao-module",
@@ -17,13 +17,13 @@
 		"issues":"https://github.com/contao-community-alliance/events-cron/issues",
 		"wiki":"https://github.com/contao-community-alliance/events-cron/wiki",
 		"irc":"irc://irc.freenode.org/contao.dev",
-		"source":"https://github.com/contao-community-alliance/events-cron"
+		"source":"https://github.com/designs2/events-cron"
 	},
 	"require":{
 		"php":">=5.3",
 		"contao/core": ">=2.11,<4.0-dev",
-		"contao-community-alliance/composer-plugin": "~2.0",
-		"contao-community-alliance/event-dispatcher": "~1.0"
+		"contao-community-alliance/composer-plugin": "*",
+		"designs2/event-dispatcher": "*"
 	},
 	"autoload":{
 		"psr-0":{
